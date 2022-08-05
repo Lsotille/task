@@ -1,0 +1,14 @@
+version: "3"
+services:
+
+  api-rest-h2db:
+    build: .
+    container_name: api-rest-h2db
+    ports:
+      - 9999:9999
+    networks: 
+      - compasso
+
+networks: 
+  compasso: 
+    driver: bridge
