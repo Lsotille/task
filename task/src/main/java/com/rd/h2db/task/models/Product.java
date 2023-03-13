@@ -6,13 +6,6 @@ import lombok.EqualsAndHashCode;
 import javax.persistence.*;
 import java.io.Serializable;
 
-/**
- *
- * @author Rodrigo da Cruz
- * @version 1.0
- * @since 2021-02-25
- * 
- */
 
 @Data
 @Entity
